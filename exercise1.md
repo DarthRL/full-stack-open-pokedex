@@ -41,3 +41,5 @@
 7. **Integration with Existing Tools:** If your project already uses cloud-based repositories like GitHub or GitLab, their integrated CI/CD services might be more seamless.
 
 8. **Operational Overhead:** Evaluate the resources required to manage and maintain a self-hosted environment and compare it with the convenience of a cloud-based solution.
+
+11.10 

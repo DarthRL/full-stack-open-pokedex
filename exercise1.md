@@ -43,3 +43,4 @@
 8. **Operational Overhead:** Evaluate the resources required to manage and maintain a self-hosted environment and compare it with the convenience of a cloud-based solution.
 
 11.10 
+11.10

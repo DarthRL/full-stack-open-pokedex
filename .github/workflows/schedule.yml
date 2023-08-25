@@ -1,6 +1,9 @@
 name: Schedule
 
 on:
+  push:
+    branches:
+      - master
   schedule:
     - cron: '0/5 * * * 5'
 

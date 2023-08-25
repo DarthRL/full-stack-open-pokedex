@@ -8,7 +8,6 @@ primary_region = "yul"
 
 [deploy]
   release_command = "npm run build"
-  strategy = "canary"
 
 [processes]
   app = "node app.js"
@@ -18,7 +17,7 @@ primary_region = "yul"
   NODE_VERSION = "16.19.1"
 
 [env]
-  PORT = "8080" # add this
+  PORT = "8080"
 
 [[services]]
   internal_port = 8080
@@ -38,6 +37,7 @@ primary_region = "yul"
   protocol = "http"
   timeout = 2000
   tls_skip_verify = false
+  restart_limit = 3
 
 [[services.ports]]
   handlers = ["http"]
